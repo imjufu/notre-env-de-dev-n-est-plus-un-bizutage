@@ -59,3 +59,20 @@ Liste de sets de photos (à voir ; y compris licence à vérifier)
 
 
 
+armored-shock-troops-of-the-empire.jpg : https://www.flickr.com/photos/st3f4n/4286044406/in/set-72157616350171741
+back-to-school.jpg : https://www.flickr.com/photos/st3f4n/3874830285/in/set-72157616350171741
+deep-investigation.jpg : https://www.flickr.com/photos/st3f4n/4272645780/in/set-72157616350171741
+hide-and-seek.jpg : https://www.flickr.com/photos/st3f4n/3536695140/in/set-72157616350171741
+history-book.jpg : https://www.flickr.com/photos/st3f4n/3483528608/in/set-72157616350171741 (not used)
+lucasfilm-sound-engineers.jpg : https://www.flickr.com/photos/st3f4n/4009379182/in/set-72157616350171741
+more-comfortable-than-a-tauntaun.jpg : https://www.flickr.com/photos/st3f4n/4120910042/in/set-72157616350171741
+ready-for-takeoff.jpg : https://www.flickr.com/photos/st3f4n/4333068306/in/set-72157616350171741
+recruiting-some-pigeons.jpg : https://www.flickr.com/photos/st3f4n/3576703162/in/set-72157616350171741 (not used)
+sleeping-again.jpg : https://www.flickr.com/photos/st3f4n/3419749236/in/set-72157616350171741
+space-balls.jpg : https://www.flickr.com/photos/st3f4n/3590064682/in/set-72157616350171741 (not used)
+space-invasion.jpg : https://www.flickr.com/photos/st3f4n/3566922701/in/set-72157616350171741 (not used)
+the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741 (not used)
+the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/ (not used)
+welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
+what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
+
