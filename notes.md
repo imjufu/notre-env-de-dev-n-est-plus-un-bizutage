@@ -43,3 +43,19 @@ Autres conférences en même temps :
  * Amphi : Nouveau socle pour une nouvelle vie, chez M6Web (Kenny DITS)
  * Salle 2 : Pourquoi la documentation compte ? (Sarah Haïm-Lubczanski)
 
+
+# Ressources
+
+Liste de sets de photos (à voir ; y compris licence à vérifier)
+
+ * (stormtroopers) https://www.flickr.com/photos/st3f4n/sets/72157616350171741/
+ * (stormtroopers) https://www.flickr.com/photos/st3f4n/sets/72157623652753215/
+ * (stormtroopers) https://www.flickr.com/photos/jdhancock/sets/72157618524893239/
+ * (stormtroopers) https://www.flickr.com/photos/kalexanderson/sets/72157627198892736/with/6077288878/
+ * (clonetroopers) https://www.flickr.com/photos/lens-cap/sets/72157626730022370/
+ * https://www.flickr.com/photos/kalexanderson/sets/72157628651430439/
+ * https://www.flickr.com/photos/kalexanderson/sets/72157627198892736/
+ * https://www.flickr.com/photos/kalexanderson/sets/72157629136156340/
+
+
+
