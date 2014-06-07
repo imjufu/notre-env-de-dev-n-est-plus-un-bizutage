@@ -91,6 +91,7 @@ the-death-star-plans-are-not-in-he-main-computer.jpg : https://www.flickr.com/ph
 the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741 (not used)
 the-lonely-vacuum-of-space.jpg : https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157618524893239 (not used)
 the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/ (not used)
+the-troopers-contribution-to-the-cc-world-summit.jpg : https://www.flickr.com/photos/kalexanderson/6156036415/in/set-72157627198892736
 welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
 what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
 
