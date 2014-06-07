@@ -48,8 +48,8 @@ Autres conférences en même temps :
 
 Liste de sets de photos (à voir ; y compris licence à vérifier)
 
- * (stormtroopers) https://www.flickr.com/photos/st3f4n/sets/72157616350171741/
- * (stormtroopers) https://www.flickr.com/photos/st3f4n/sets/72157623652753215/
+ * (stormtroopers 365) https://www.flickr.com/photos/st3f4n/sets/72157616350171741/
+ * (stormtroopers 365 extra) https://www.flickr.com/photos/st3f4n/sets/72157623652753215/
  * (stormtroopers) https://www.flickr.com/photos/jdhancock/sets/72157618524893239/
  * (stormtroopers) https://www.flickr.com/photos/kalexanderson/sets/72157627198892736/with/6077288878/
  * (clonetroopers) https://www.flickr.com/photos/lens-cap/sets/72157626730022370/
@@ -63,10 +63,16 @@ armored-shock-troops-of-the-empire.jpg : https://www.flickr.com/photos/st3f4n/42
 back-to-school.jpg : https://www.flickr.com/photos/st3f4n/3874830285/in/set-72157616350171741
 christmas-love.jpg : https://www.flickr.com/photos/st3f4n/5234403739/in/set-72157623652753215 (not used)
 deep-investigation.jpg : https://www.flickr.com/photos/st3f4n/4272645780/in/set-72157616350171741
+death-star-metal.jpg : https://www.flickr.com/photos/jdhancock/4932301604/in/set-72157618524893239 (not used)
+die-stormtrooper-die.jpg : https://www.flickr.com/photos/jdhancock/3582171012/in/set-72157618524893239
 hide-and-seek.jpg : https://www.flickr.com/photos/st3f4n/3536695140/in/set-72157616350171741
 greeting-from-the-moon-2.jpg : https://www.flickr.com/photos/st3f4n/4501172754/in/set-72157623652753215 (not used)
 greetings-from-the-moon-3.jpg : https://www.flickr.com/photos/st3f4n/4501185796/in/set-72157623652753215 (not used)
+heart-of-storm.jpg : https://www.flickr.com/photos/jdhancock/4354438814/in/set-72157618524893239 (not used)
 history-book.jpg : https://www.flickr.com/photos/st3f4n/3483528608/in/set-72157616350171741 (not used)
+i-fought-the-lawn.jpg : https://www.flickr.com/photos/jdhancock/3521006248/in/set-72157618524893239 (not used)
+imperial-art-appreciation-green.jpg : https://www.flickr.com/photos/jdhancock/3795174312/in/set-72157618524893239 (not used)
+imperial-art-appreciation-red.jpg : https://www.flickr.com/photos/jdhancock/3784982060/in/set-72157618524893239 (not used)
 lucasfilm-sound-engineers.jpg : https://www.flickr.com/photos/st3f4n/4009379182/in/set-72157616350171741
 marksmen-alt.jpg : https://www.flickr.com/photos/st3f4n/4555325477/in/set-72157623652753215 (not used)
 mirror.jpg : https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215 (not used)
@@ -78,7 +84,14 @@ recruiting-some-pigeons.jpg : https://www.flickr.com/photos/st3f4n/3576703162/in
 sleeping-again.jpg : https://www.flickr.com/photos/st3f4n/3419749236/in/set-72157616350171741
 space-balls.jpg : https://www.flickr.com/photos/st3f4n/3590064682/in/set-72157616350171741 (not used)
 space-invasion.jpg : https://www.flickr.com/photos/st3f4n/3566922701/in/set-72157616350171741 (not used)
+storm-crowd.jpg : https://www.flickr.com/photos/jdhancock/3574716051/in/set-72157618524893239 (not used)
+storm-rolling-in.jpg : https://www.flickr.com/photos/jdhancock/4702387746/in/set-72157618524893239 (not used)
+the-dark-storm.jpg : https://www.flickr.com/photos/jdhancock/3962070036/in/set-72157618524893239 (not used)
+the-death-star-plans-are-not-in-he-main-computer.jpg : https://www.flickr.com/photos/jdhancock/5845280258/in/set-72157618524893239 (à voir)
 the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741 (not used)
+the-lonely-vacuum-of-space.jpg : https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157618524893239 (not used)
 the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/ (not used)
 welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
 what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
+
+
