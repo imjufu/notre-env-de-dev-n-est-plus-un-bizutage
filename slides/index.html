@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title></title>
+
+        <meta name="description" content="">
+        <meta name="author" content="Julien FUSCO, Pascal MARTIN">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                
+                <section id="title">
+                    <h1>Titre</h1>
+                    <p>
+                        <small>
+                            Pascal MARTIN, 
+                            <a href="http://blog.pascal-martin.fr">http://blog.pascal-martin.fr</a> 
+                            / <a href="mailto:pmartin@php.net">pmartin@php.net</a>
+                            / <a href="http://twitter.com/pascal_martin">@pascal_martin</a>
+                        </small>
+                    </p>
+                </section>
+                
+                <!--
+                <section id="info-notes-presentateur">
+                    <p>
+                        <strong>Appuyez sur <kbd>[s]</kbd> pour ouvrir les <em>notes présentateur</em> dans une nouvelle fenêtre.</strong>
+                    </p>
+                    <aside class="notes">
+                        <p>Je vais essayer d'ajouter ici, pour certains slides, des points que j'ai pu donner à l'oral lors de la présentation et/ou qui ne sont pas explicitement écrits sur les slides — afin de les rendre plus utiles aux lecteurs qui n'auraient pas assisté à la présentation.</p>
+                        <p>Le style sera volontairement un peu <em>oral</em>, se rapprochant un peu de ce qui s'est dit lors de la présentation <em>live</em>.</p>
+                    </aside>
+                </section>
+                -->
+                
+                <!--
+                <section data-background="./images/some-image.jpg" class="inverted" id="">
+                    <h1></h1>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="">Photo</a> par <a href=""></a> sur Flickr, CC-.
+                        </p>
+                    </aside>
+                </section>
+                -->
+                
+                <!--
+                <section>
+                    <h2></h2>
+                    ul>li
+                    <pre><code data-trim>
+
+                    </code></pre>
+                    <aside class="notes">
+                        ul>li
+                    </aside>
+                </section>
+                -->
+                
+            </div>
+            
+            <!--
+            <div class="presentation-details">
+                <p>
+                    Texte de footer&nbsp;— Pascal MARTIN, <a href="http://twitter.com/pascal_martin">@pascal_martin</a>
+                </p>
+            </div>
+            -->
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                theme: 'simple',
+                transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+                width: 1280,
+                height: 1024,
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+        </script>
+
+    </body>
+</html>
