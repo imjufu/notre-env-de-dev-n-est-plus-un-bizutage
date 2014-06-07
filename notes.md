@@ -61,11 +61,18 @@ Liste de sets de photos (à voir ; y compris licence à vérifier)
 
 armored-shock-troops-of-the-empire.jpg : https://www.flickr.com/photos/st3f4n/4286044406/in/set-72157616350171741
 back-to-school.jpg : https://www.flickr.com/photos/st3f4n/3874830285/in/set-72157616350171741
+christmas-love.jpg : https://www.flickr.com/photos/st3f4n/5234403739/in/set-72157623652753215 (not used)
 deep-investigation.jpg : https://www.flickr.com/photos/st3f4n/4272645780/in/set-72157616350171741
 hide-and-seek.jpg : https://www.flickr.com/photos/st3f4n/3536695140/in/set-72157616350171741
+greeting-from-the-moon-2.jpg : https://www.flickr.com/photos/st3f4n/4501172754/in/set-72157623652753215 (not used)
+greetings-from-the-moon-3.jpg : https://www.flickr.com/photos/st3f4n/4501185796/in/set-72157623652753215 (not used)
 history-book.jpg : https://www.flickr.com/photos/st3f4n/3483528608/in/set-72157616350171741 (not used)
 lucasfilm-sound-engineers.jpg : https://www.flickr.com/photos/st3f4n/4009379182/in/set-72157616350171741
+marksmen-alt.jpg : https://www.flickr.com/photos/st3f4n/4555325477/in/set-72157623652753215 (not used)
+mirror.jpg : https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215 (not used)
 more-comfortable-than-a-tauntaun.jpg : https://www.flickr.com/photos/st3f4n/4120910042/in/set-72157616350171741
+on-strike.jpg : https://www.flickr.com/photos/st3f4n/4494670874/in/set-72157623652753215 (not used)
+playing-scrabble.jpg : https://www.flickr.com/photos/st3f4n/4555277559/in/set-72157623652753215 (not used)
 ready-for-takeoff.jpg : https://www.flickr.com/photos/st3f4n/4333068306/in/set-72157616350171741
 recruiting-some-pigeons.jpg : https://www.flickr.com/photos/st3f4n/3576703162/in/set-72157616350171741 (not used)
 sleeping-again.jpg : https://www.flickr.com/photos/st3f4n/3419749236/in/set-72157616350171741
@@ -75,4 +82,3 @@ the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/429794
 the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/ (not used)
 welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
 what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
-
