@@ -57,3 +57,9 @@ the-troopers-contribution-to-the-cc-world-summit.jpg : https://www.flickr.com/ph
 troopers-in-the-sunlight.jpg : https://www.flickr.com/photos/kalexanderson/6813057417/in/set-72157627198892736 (not used)
 welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
 what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
+
+the-making-of-a-portrait.jpg : https://www.flickr.com/photos/lens-cap/7792479186/in/set-72157626730022370
+are-you-sure-this-is-how-its-played.jpg : https://www.flickr.com/photos/lens-cap/13986579112/in/set-72157626730022370
+playing-karlsson-on-the-roof.jpg : https://www.flickr.com/photos/kalexanderson/6798393238/in/set-72157628651430439
+memory-lapse.jpg : https://www.flickr.com/photos/st3f4n/4291462682
+

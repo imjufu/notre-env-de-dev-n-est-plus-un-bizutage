@@ -51,7 +51,6 @@ Liste de sets de photos (à voir ; y compris licence à vérifier)
  * (stormtroopers 365) https://www.flickr.com/photos/st3f4n/sets/72157616350171741/
  * (stormtroopers 365 extra) https://www.flickr.com/photos/st3f4n/sets/72157623652753215/
  * (stormtroopers) https://www.flickr.com/photos/jdhancock/sets/72157618524893239/
- * (stormtroopers) https://www.flickr.com/photos/kalexanderson/sets/72157627198892736/with/6077288878/
  * (clonetroopers) https://www.flickr.com/photos/lens-cap/sets/72157626730022370/
  * https://www.flickr.com/photos/kalexanderson/sets/72157628651430439/
  * https://www.flickr.com/photos/kalexanderson/sets/72157627198892736/
