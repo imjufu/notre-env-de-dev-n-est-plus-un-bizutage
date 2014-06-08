@@ -3,7 +3,7 @@
 
 $orig = "/home/squale/temp/photos-stormtroopers/";
 
-foreach (new GlobIterator(__DIR__ . '/*.jpg') as $file) {
+foreach (new GlobIterator($orig . '/*.jpg') as $file) {
     $filename = $file->getBaseName();
     $dest = __DIR__ . '/' . $filename;
     if (!file_exists($dest)) {

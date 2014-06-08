@@ -73,6 +73,9 @@ history-book.jpg : https://www.flickr.com/photos/st3f4n/3483528608/in/set-721576
 i-fought-the-lawn.jpg : https://www.flickr.com/photos/jdhancock/3521006248/in/set-72157618524893239 (not used)
 imperial-art-appreciation-green.jpg : https://www.flickr.com/photos/jdhancock/3795174312/in/set-72157618524893239 (not used)
 imperial-art-appreciation-red.jpg : https://www.flickr.com/photos/jdhancock/3784982060/in/set-72157618524893239 (not used)
+kri-0462.jpg : https://www.flickr.com/photos/kalexanderson/6088908650/in/set-72157627198892736 (not used)
+kri-0451.jpg : https://www.flickr.com/photos/kalexanderson/6088362947/in/set-72157627198892736 (not used)
+look-up-there.jpg : https://www.flickr.com/photos/kalexanderson/6124328267/in/set-72157627198892736 (not used)
 lucasfilm-sound-engineers.jpg : https://www.flickr.com/photos/st3f4n/4009379182/in/set-72157616350171741
 marksmen-alt.jpg : https://www.flickr.com/photos/st3f4n/4555325477/in/set-72157623652753215 (not used)
 mirror.jpg : https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215 (not used)
@@ -88,11 +91,14 @@ storm-crowd.jpg : https://www.flickr.com/photos/jdhancock/3574716051/in/set-7215
 storm-rolling-in.jpg : https://www.flickr.com/photos/jdhancock/4702387746/in/set-72157618524893239 (not used)
 the-dark-storm.jpg : https://www.flickr.com/photos/jdhancock/3962070036/in/set-72157618524893239 (not used)
 the-death-star-plans-are-not-in-he-main-computer.jpg : https://www.flickr.com/photos/jdhancock/5845280258/in/set-72157618524893239 (à voir)
+the-inofficial-imperial-troop-camp.jpg : https://www.flickr.com/photos/kalexanderson/6106820018/in/set-72157627198892736 (not used)
 the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741 (not used)
 the-lonely-vacuum-of-space.jpg : https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157618524893239 (not used)
+the-new-imperial-web-solution.jpg : https://www.flickr.com/photos/kalexanderson/6101914287/in/set-72157627198892736 (not used)
 the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/ (not used)
 the-troopers-contribution-to-the-cc-world-summit.jpg : https://www.flickr.com/photos/kalexanderson/6156036415/in/set-72157627198892736
 welcome-party-stormtrooper-night-fever.jpg : https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741
 what-is-this-thing-for.jpg : https://www.flickr.com/photos/st3f4n/3556697439/in/set-72157616350171741 (not used)
+
 
 
