@@ -75,6 +75,7 @@
 
 .reveal code {
     font-family: "SourceCodePro", monospace;
+    background: inherit;
 }
 
 .reveal p>code, li>code {

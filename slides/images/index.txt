@@ -10,7 +10,7 @@ dirty-dancing.jpg : https://www.flickr.com/photos/kalexanderson/6190650335/in/se
 doing-some-sisyphus-work.jpg : https://www.flickr.com/photos/kalexanderson/7014655351/in/set-72157627198892736 (not used)
 do-you-think-well-find-the-droids.jpg : https://www.flickr.com/photos/kalexanderson/7309761742/in/set-72157627198892736 (not used)
 finding-balance.jpg : https://www.flickr.com/photos/kalexanderson/6266452817/in/set-72157627198892736 (not used)
-going-down-in-the-moving-staircase.jpg : https://www.flickr.com/photos/kalexanderson/5863576654/in/set-72157627198892736 (not used)
+going-down-in-the-moving-staircase.jpg : https://www.flickr.com/photos/kalexanderson/5863576654/in/set-72157627198892736
 greeting-from-the-moon-2.jpg : https://www.flickr.com/photos/st3f4n/4501172754/in/set-72157623652753215 (not used)
 greetings-from-the-moon-3.jpg : https://www.flickr.com/photos/st3f4n/4501185796/in/set-72157623652753215
 have-you-grown.jpg : https://www.flickr.com/photos/kalexanderson/7187186394/in/set-72157627198892736 (not used)
@@ -18,8 +18,8 @@ heart-of-storm.jpg : https://www.flickr.com/photos/jdhancock/4354438814/in/set-7
 hide-and-seek.jpg : https://www.flickr.com/photos/st3f4n/3536695140/in/set-72157616350171741
 history-book.jpg : https://www.flickr.com/photos/st3f4n/3483528608/in/set-72157616350171741 (not used)
 i-fought-the-lawn.jpg : https://www.flickr.com/photos/jdhancock/3521006248/in/set-72157618524893239 (not used)
-imperial-art-appreciation-green.jpg : https://www.flickr.com/photos/jdhancock/3795174312/in/set-72157618524893239 (not used)
-imperial-art-appreciation-red.jpg : https://www.flickr.com/photos/jdhancock/3784982060/in/set-72157618524893239 (not used)
+imperial-art-appreciation-green.jpg : https://www.flickr.com/photos/jdhancock/3795174312/in/set-72157618524893239
+imperial-art-appreciation-red.jpg : https://www.flickr.com/photos/jdhancock/3784982060/in/set-72157618524893239
 kri-0451.jpg : https://www.flickr.com/photos/kalexanderson/6088362947/in/set-72157627198892736 (not used)
 kri-0462.jpg : https://www.flickr.com/photos/kalexanderson/6088908650/in/set-72157627198892736 (not used)
 kri-4734.jpg : https://www.flickr.com/photos/kalexanderson/7125455809/in/set-72157627198892736 (not used)

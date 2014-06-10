@@ -126,13 +126,31 @@
                     <h2>Ce qui est fixé</h2>
                     <ul>
                         <li>Git, Github</li>
-                        <li>Linux + PHP, Ruby, MySQL</li>
-                        <li>Déploiement : capistrano</li>
+                        <li>Linux, Mac</li>
                     </ul>
                     <aside class="notes">
                         <p class="img-attribution">
                             <a href="">Photo</a> par <a href=""></a> sur Flickr, CC-.
                         </p>
+                    </aside>
+                </section>
+                
+                <section data-background="./images/going-down-in-the-moving-staircase.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Notre production</h2>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Apache</li>
+                        <li>PHP, Ruby, MySQL, MongoDB</li>
+                        <li>VM jouant un rôle de machines physiques</li>
+                        <li>Déploiement : capistrano</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Etat des lieux aujourd'hui</li>
+                            <li>VM : pas utilisées pour isoler les services ; uniquement pour faciliter les backups / le scaling / autres du côté de l'hébergeur, mais pas de réel intérêt "pour nous"</li>
+                            <li>Pas de Docker en production. Aujourd'hui.</li>
+                            <li>Toujours ouvert à améliorations</li>
+                        </ul>
                     </aside>
                 </section>
                 
@@ -166,7 +184,7 @@
                 </section>
                 
                 <section>
-                    <p>"Tu vas prendre en gros la semaine pour installer ton poste"</p>
+                    <blockquote>«&nbsp;Tu vas prendre en gros la semaine pour installer ton poste&nbsp;»</blockquote>
                     <aside class="notes">
                         <ul>
                             <li>Un de mes collègues, le jour de mon arrivée</li>
@@ -185,7 +203,7 @@
                 </section>
                 
                 <section data-background="./images/some-image.jpg">
-                    <p>"Comme ils ont du te dire, tu vas en avoir pour à peu près deux semaines à installer ton poste"</p>
+                    <blockquote>«&nbsp;Comme ils ont du te dire, tu vas en avoir pour à peu près deux semaines à installer ton poste&nbsp;»</blockquote>
                     <aside class="notes">
                         <ul>
                             <li>Un autre de mes collègues, quelques heures plus tard</li>
@@ -312,6 +330,24 @@
                     </aside>
                 </section>
                 
+                <section data-background="./images/imperial-art-appreciation-red.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Malgré cela...</h2>
+                    <ul>
+                        <li>Cloner le repository git</li>
+                        <li>Lanceer la VM, qui s'installe automatiquement</li>
+                        <li><code>composer install</code></li>
+                        <li><strong>Beaucoup</strong> de temps pour configurer l'application</li>
+                        <li>Les tests (fonctionnels / intégration) passent...</li>
+                        <li>... ou pas.</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Application métier complexe avec nombreux (+ de 10) fichiers de configuration, réparti dans plusieurs sous-répertoires</li>
+                            <li>TRES consommateur en temps et énergie à configurer</li>
+                        </ul>
+                    </aside>
+                </section>
+                
                 <section data-background="./images/memory-lapse.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>Fichiers de configuration</h2>
                     <ul>
@@ -354,6 +390,21 @@
                             <li>Même chose "après" lancement de la commande stow</li>
                             <li>Si quelqu'un modifie un fichier de config, la modification passe dans la PR de la feature sur laquelle il bossait, et tous les collègues en profitent</li>
                             <li>Si un poste des "trop différent" des autres, ça va poser problème ; pour l'instant, on voit sur un projet si "ça marche" (ça a l'air pas trop mal parti) ; ensuite on va faire pareil sur 1 ou 2 autres ; puis les suivants</li>
+                        </ul>
+                    </aside>
+                </section>
+                
+                <section data-background="./images/imperial-art-appreciation-green.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Objectif</h2>
+                    <ul>
+                        <li>Cloner le repository git</li>
+                        <li>Lanceer la VM, qui s'installe automatiquement</li>
+                        <li><code>composer install</code></li>
+                        <li>Les tests (fonctionnels / intégration) passent</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Pas de longue étape "créer tous les fichiers de conf avec les bonnes valeurs"</li>
                         </ul>
                     </aside>
                 </section>
