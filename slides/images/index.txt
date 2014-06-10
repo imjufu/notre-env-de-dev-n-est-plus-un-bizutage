@@ -1,4 +1,4 @@
-a-hard-days-work.jpg : https://www.flickr.com/photos/kalexanderson/6874387223/in/set-72157627198892736 (not used)
+a-hard-days-work.jpg : https://www.flickr.com/photos/kalexanderson/6874387223/in/set-72157627198892736
 are-you-sure-this-is-how-its-played.jpg : https://www.flickr.com/photos/lens-cap/13986579112/in/set-72157626730022370
 armored-shock-troops-of-the-empire.jpg : https://www.flickr.com/photos/st3f4n/4286044406/in/set-72157616350171741
 back-to-school.jpg : https://www.flickr.com/photos/st3f4n/3874830285/in/set-72157616350171741
