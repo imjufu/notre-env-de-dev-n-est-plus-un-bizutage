@@ -394,6 +394,22 @@
                     </aside>
                 </section>
                 
+                <section data-background="./images/mirror.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>dnsmasq</h2>
+                    <ul>
+                        <li>Serveur DNS</li>
+                        <li>Utilisé par toutes les machines / VM / containeurs</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Problématique : comment faire pour que les services se parlent entre eux ?</li>
+                            <li>IP en dur : pas viable</li>
+                            <li>Modifier les fichiers /etc/hosts partout : fastidieux, manuel, à faire dans chaque VM, pas possible sous Docker (peut-être que si, maintenant ? )</li>
+                            <li>Serveur DNS sur poste de dev : 1 seul endroit où effectuer les configurations</li>
+                        </ul>
+                    </aside>
+                </section>
+                
                 <section data-background="./images/imperial-art-appreciation-green.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>Objectif</h2>
                     <ul>

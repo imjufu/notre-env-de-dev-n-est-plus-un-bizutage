@@ -29,7 +29,7 @@ look-up-there.jpg : https://www.flickr.com/photos/kalexanderson/6124328267/in/se
 lucasfilm-sound-engineers.jpg : https://www.flickr.com/photos/st3f4n/4009379182/in/set-72157616350171741 (not used)
 marksmen-alt.jpg : https://www.flickr.com/photos/st3f4n/4555325477/in/set-72157623652753215 (not used)
 memory-lapse.jpg : https://www.flickr.com/photos/st3f4n/4291462682
-mirror.jpg : https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215 (not used)
+mirror.jpg : https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215
 more-comfortable-than-a-tauntaun.jpg : https://www.flickr.com/photos/st3f4n/4120910042/in/set-72157616350171741
 no-more-rabbits.jpg : https://www.flickr.com/photos/kalexanderson/6163134201/in/set-72157627198892736
 on-strike.jpg : https://www.flickr.com/photos/st3f4n/4494670874/in/set-72157623652753215 (not used)
