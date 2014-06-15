@@ -54,7 +54,7 @@ the-inofficial-imperial-troop-camp.jpg : https://www.flickr.com/photos/kalexande
 the-light-side-of-the-pullover.jpg : https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741
 the-lonely-vacuum-of-space.jpg : https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157618524893239
 the-making-of-a-portrait.jpg : https://www.flickr.com/photos/lens-cap/7792479186/in/set-72157626730022370
-the-new-imperial-web-solution.jpg : https://www.flickr.com/photos/kalexanderson/6101914287/in/set-72157627198892736 (not used)
+the-new-imperial-web-solution.jpg : https://www.flickr.com/photos/kalexanderson/6101914287/in/set-72157627198892736
 the-rebels-new-weapon.jpg : https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/
 the-stormtrooper-and-the-mario-star.jpg : https://www.flickr.com/photos/kalexanderson/5151994229/in/set-72157627198892736 (not used)
 the-thinker.jpg : https://www.flickr.com/photos/kalexanderson/5553805476/in/set-72157627198892736
