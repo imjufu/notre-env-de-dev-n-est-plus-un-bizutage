@@ -481,7 +481,18 @@ end
                         Arborescence extraite de git
                     </p>
                     <pre><code data-trim>
-// TODO
+$ tree
+.
+|-- app
+|   `-- config
+|-- config
+`-- config-dist
+    `-- lxc
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml
                     </code></pre>
                     <aside class="notes">
                         <ul>
@@ -498,7 +509,21 @@ end
                         Arborescence avec les symlinks
                     </p>
                     <pre><code data-trim>
-// TODO
+$ tree
+.
+|-- app
+|   `-- config
+|       `-- specifique-appli.txt 
+            -&gt; ../../config-dist/lxc/app/config/specifique-appli.txt
+|-- config
+|   `-- test.yml -&gt; ../config-dist/lxc/config/test.yml
+`-- config-dist
+    `-- lxc
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml
                     </code></pre>
                     <aside class="notes">
                         <ul>
