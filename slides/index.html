@@ -475,14 +475,24 @@ end
                     </aside>
                 </section>
 
-                <section>
+                <section class="without-darkback">
                     <h2>Stow</h2>
                     <p>
                         Arborescence extraite de git
                     </p>
-                    <pre><code data-trim>
-// TODO
-                    </code></pre>
+                    <pre>
+$ tree
+.
+|-- app
+|   `-- config
+|-- config
+`-- config-dist
+    `-- local
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml</pre>
                     <aside class="notes">
                         <ul>
                             <li>Speaker : Pascal</li>
@@ -492,14 +502,38 @@ end
                     </aside>
                 </section>
 
-                <section>
+                <section class="without-darkback">
+                    <h2>Stow</h2>
+                    <pre>
+stow --dir=config-dist --target=. local</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section class="without-darkback">
                     <h2>Stow</h2>
                     <p>
                         Arborescence avec les symlinks
                     </p>
-                    <pre><code data-trim>
-// TODO
-                    </code></pre>
+                    <pre>
+$ tree
+.
+|-- app
+|   `-- config
+|       `-- specifique-appli.txt 
+            -&gt; ../../config-dist/local/app/config/specifique-appli.txt
+|-- config
+|   `-- test.yml -&gt; ../config-dist/local/config/test.yml
+`-- config-dist
+    `-- local
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml</pre>
                     <aside class="notes">
                         <ul>
                             <li>Speaker : Pascal</li>
@@ -558,7 +592,7 @@ end
 git clone ...
 vagrant up ma-superbe-vm
 composer install
-stow --dir=config-dist lxc
+stow --dir=config-dist local
 bin/atoum && bin/behat
                         </code>
                     </pre>
