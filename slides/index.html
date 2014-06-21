@@ -487,7 +487,7 @@ $ tree
 |   `-- config
 |-- config
 `-- config-dist
-    `-- lxc
+    `-- local
         |-- app
         |   `-- config
         |       `-- specifique-appli.txt
@@ -505,7 +505,7 @@ $ tree
                 <section class="without-darkback">
                     <h2>Stow</h2>
                     <pre>
-stow --dir=config-dist --target=. lxc</pre>
+stow --dir=config-dist --target=. local</pre>
                     <aside class="notes">
                         <ul>
                             <li>Speaker : Pascal</li>
@@ -524,11 +524,11 @@ $ tree
 |-- app
 |   `-- config
 |       `-- specifique-appli.txt 
-            -&gt; ../../config-dist/lxc/app/config/specifique-appli.txt
+            -&gt; ../../config-dist/local/app/config/specifique-appli.txt
 |-- config
-|   `-- test.yml -&gt; ../config-dist/lxc/config/test.yml
+|   `-- test.yml -&gt; ../config-dist/local/config/test.yml
 `-- config-dist
-    `-- lxc
+    `-- local
         |-- app
         |   `-- config
         |       `-- specifique-appli.txt
@@ -592,7 +592,7 @@ $ tree
 git clone ...
 vagrant up ma-superbe-vm
 composer install
-stow --dir=config-dist lxc
+stow --dir=config-dist local
 bin/atoum && bin/behat
                         </code>
                     </pre>
