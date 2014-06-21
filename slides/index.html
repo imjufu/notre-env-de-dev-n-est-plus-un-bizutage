@@ -386,9 +386,9 @@
                     </aside>
                 </section>
 
-                <section>
+                <section data-background-color="#000000" class="inverted">
                     <h2>Cookbook chef</h2>
-                    <pre class="stretch"><code data-trim>
+                    <pre class="stretch"><code data-trim class="ruby">
 include_recipe "php"
 include_recipe "php::module_mysql"
 
@@ -403,15 +403,46 @@ end
                     <aside class="notes">
                         <ul>
                             <li>Speaker : Julien</li>
+                            <li>expliquer le include_recipe</li>
                         </ul>
                     </aside>
                 </section>
 
-                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
-                    <p>Exemple d'install du backend (avec temps que ça prend)</p>
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Vagrantfile</h2>
+                    <pre class="stretch"><code data-trim class="ruby">
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "tea-phptour" do |test|
+    test.vm.box = "tea-wheezy-amd64"
+    test.vm.hostname = "tea-phptour"
+
+    test.omnibus.chef_version = :latest
+
+    test.vm.provision "chef_solo" do |chef|
+      chef.cookbooks_path = "#{my_ws}/cookbooks"
+      chef.add_recipe "tea-phptour"
+    end
+  end
+
+end
+                    </code></pre>
                     <aside class="notes">
                         <p class="img-attribution">
                         </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/vagrant-up.png" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>vagrant up tea-phptour</h2>
+                    <aside class="notes">
+                        <p class="img-attribution"></p>
                         <ul>
                             <li>Speaker : Julien</li>
                         </ul>
@@ -616,12 +647,13 @@ nameserver 192.168.3.1</pre>
                 <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>Objectif atteint !</h2>
                     <pre>
-                        <code>
-git clone ...
-vagrant up ma-superbe-vm
-composer install
-stow --dir=config-dist local
-bin/atoum && bin/behat
+                        <code class="bash">
+$ git clone mon-projet.git
+$ vagrant up ma-vm
+$ composer install
+$ stow --dir=config-dist local
+
+$ bin/atoum && bin/behat
                         </code>
                     </pre>
                     <p>\o/</p>
@@ -657,7 +689,41 @@ bin/atoum && bin/behat
 
                 <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>tea-sub</h2>
-                    <p>TODO Exemple</p>
+                    <pre class="stretch"><code data-trim class="shell">
+#!/usr/bin/env bash
+# Summary: (tea) development server
+# Usage: tea dev [actions] [user]
+# Help:
+#   Possible actions:
+#   warehouse   Users: tea (default), warehouse
+#   db          Users: tea (default)
+#   acs         Users: tea (default), acs
+set -e
+
+DIRNAME=`dirname $0`
+
+connect() {
+  set_color FFFFFF 7A4B0C
+  ssh "$1"@tea-"$2"-pp.teaebook
+  set_color FFFFFF 000000
+}
+
+# ...
+                    </code></pre>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>autocomplétion</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/preprod.png" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>tea-sub</h2>
+                    <p>Connexion à la pre-prod</p>
+                    <code>$ tea preprod db</code>
                     <aside class="notes">
                         <p class="img-attribution">
                         </p>
@@ -667,21 +733,10 @@ bin/atoum && bin/behat
                     </aside>
                 </section>
 
-                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                <section data-background="./images/prod.png" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>tea-sub</h2>
-                    <p>Screenshot de la connexion en pre-prod</p>
-                    <aside class="notes">
-                        <p class="img-attribution">
-                        </p>
-                        <ul>
-                            <li>Speaker : Julien</li>
-                        </ul>
-                    </aside>
-                </section>
-
-                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
-                    <h2>tea-sub</h2>
-                    <p>Screenshot de la connexion en prod</p>
+                    <p>Connexion à la prod</p>
+                    <code>$ tea prod db</code>
                     <aside class="notes">
                         <p class="img-attribution">
                         </p>
