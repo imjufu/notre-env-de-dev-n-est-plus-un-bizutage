@@ -527,14 +527,41 @@ end
                     </aside>
                 </section>
 
-                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
-                    <h2>TODO example dnsmasq</h2>
+                <section  class="without-darkback">
+                    <h2>Sur le poste de dev.</h2>
+                    <pre>
+# /etc/dnsmasq.conf
+bind-interfaces
+conf-dir=/etc/dnsmasq.d</pre>
+                    <pre>
+# /etc/dnsmasq.d/ecommerce.local
+address=/ecommerce.local/192.168.3.13</pre>
+                    <pre>
+# /etc/dnsmasq.d/database.local
+address=/database.local/192.168.3.10</pre>
+                    <pre>
+sudo /etc/init.d/dnsmasq restart</pre>
                     <aside class="notes">
-                        <p class="img-attribution">
-
-                        </p>
                         <ul>
                             <li>Speaker : Pascal</li>
+                            <li>Sur le poste physique, on installe dnsmasq et on le configure pour qu'il chager tous les fichiers depuis <code>dnsmasq.d</code></li>
+                            <li>Ensuite, un fichier par service (plus facile pour semi-automatiser leur création) avec nom du service + IP</li>
+                        </ul>
+                    </aside>
+                </section>
+                
+                <section  class="without-darkback">
+                    <h2>Sur les VMs</h2>
+                    <pre>
+apt-get install resolvconf</pre>
+                    <pre>
+# /etc/resolvconf/resolv.conf.d/head
+nameserver 192.168.3.1</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Sur chaque VM, IP du poste physique (sur l'interface de virtualisation), qui est utilisé pour la résolution DNS</li>
+                            <li>On n'a plus 36 lignes dans <code>/etc/hosts</code>, mais une seule pour la résolution, qui ne change globalement jamais</li>
                         </ul>
                     </aside>
                 </section>
