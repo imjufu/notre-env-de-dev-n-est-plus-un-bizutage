@@ -45,8 +45,11 @@
                 <section data-background="./images/im-the-droid-you-re-looking-for.jpg" id="title">
                     <h1>Notre env. de dév. n’est plus un<br />bizutage&nbsp;!</h1>
                     <aside class="notes">
-                        L'installation était vécu comme un bizutage par les nouveaux arrivants
-                        Retour d'expérience de pourquoi plutôt qu'un listing de commande
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>L'installation était vécu comme un bizutage par les nouveaux arrivants</li>
+                            <li>Retour d'expérience de pourquoi plutôt qu'un listing de commande</li>
+                        </ul>
                         <p class="img-attribution">
                             <a href="https://www.flickr.com/photos/st3f4n/4482211416/in/set-72157627868292677">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
                         </p>
@@ -84,7 +87,9 @@
                         <ul>
                             <li>Speaker : Julien</li>
                             <li>Julien, 8 ans d'XP</li>
+                            <li>Gros background SSII</li>
                             <li>Dév PHP, Ruby principalement</li>
+                            <li>J'aime beaucoup Mario Kart, on s'échange nos ID Nintendo ?</li>
                         </ul>
                     </aside>
                 </section>
@@ -163,10 +168,11 @@
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Aujourd'hui, on ne le remet pas en cause</li>
-                            <li>Portable pour le télétravail, le travail en pair</li>
-                            <li>Linux, pas la même distribution</li>
-                            <li>Github pour les PRs, c'est systématique. Le wiki. Le système des issues.</li>
+                            <li>Chez TEA, on aime git et github</li>
+                            <li>Github : PRs (c'est systématique) + wiki</li>
+                            <li>Portable pour : le télétravail, le travail en pair</li>
+                            <li>Pas tous les mêmes distribs : Mac OSX, Debian, Ubuntu</li>
+                            <li>Communication (équipe qui grossie, télétravail) : Hipchat</li>
                         </ul>
                     </aside>
                 </section>
@@ -186,10 +192,9 @@
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Etat des lieux aujourd’hui</li>
-                            <li>VM : pas utilisées pour isoler les services ; uniquement pour faciliter les backups / le scaling / autres du côté de l’hébergeur, mais pas de réel intérêt "pour nous"</li>
-                            <li>Pas de Docker en production. Aujourd’hui.</li>
-                            <li>Toujours ouvert à améliorations</li>
+                            <li>Explication de notre production pour expliquer la compléxité de notre archi</li>
+                            <li>Debian sur nos serveurs, 7 serveurs physiques, ~15 VMs entre dev, preprod, prod</li>
+                            <li>Stack LAMP, Ruby et aussi MongoDB, Redis, SolR</li>
                             <li>Outils proprio : boites noires, pas la main dessus</li>
                             <li>prestataires qui nous ont livré une production qu'on a du reverse-engeneré</li>
                         </ul>
@@ -294,7 +299,7 @@
                             <li>Speaker : Julien</li>
                             <li>Mission de base : Encadrer les presta externe</li>
                             <li>Que 2 devs pour tout faire</li>
-                            <li>Pas de vision globale sur l'archi mise en place</li>
+                            <li>Livraison d'une production, pas de vision globale sur l'archi mise en place</li>
                         </ul>
                     </aside>
                 </section>
@@ -308,11 +313,11 @@
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Tout à faire à la main, depuis les docs sur le wiki ; ce qui entraine des erreurs</li>
-                            <li>Et docs pas toujours à jour ; ce qui entraine aussi des erreurs</li>
                             <li>Lancement de la boite, pour aller vite, code fait par des presta</li>
                             <li>Un peu "reverse-engineering" de ce qui avait fait pour l’installer sur les postes de dev</li>
-                            <li>Wiki : notes dans tous les sens (parfois contradictoires d’une fiche à l’autre !), commandes à copier-coller, pas mis à jour aussi régulièrement qu’il ne faudrait, fichiers de conf à créer à la main, instructions du genre "remplacer X par Y",, pas automatisé / automatisable</li>
+                            <li>Tout manuel, depuis le wiki ; ce qui entraine des erreurs</li>
+                            <li>docs pas toujours à jour => des erreurs</li>
+                            <li>Wiki : notes dans tous les sens (parfois contradictoires d’une fiche à l’autre !), commandes à copier-coller, pas mis à jour aussi régulièrement qu’il ne faudrait, fichiers de conf à créer à la main, instructions du genre "remplacer X par Y", pas automatisé / automatisable</li>
                         </ul>
                     </aside>
                 </section>
@@ -360,6 +365,8 @@
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
+                            <li>Début 2014, recrutement intensif, beaucoup de nouveaux</li>
+                            <li>"C'était le moment d'améliorer cette partie"</li>
                         </ul>
                     </aside>
                 </section>
@@ -368,8 +375,8 @@
                 <section data-background="./images/the-clones-are-breaking-into-the-super-mario-block.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
                     <h2>Quelques outils</h2>
                     <ul>
-                        <li>Vagrant</li>
-                        <li>Cookbooks chef</li>
+                        <li>Vagrant provision</li>
+                        <li>Cookbooks Chef</li>
                     </ul>
                     <aside class="notes">
                         <p class="img-attribution">
@@ -377,11 +384,9 @@
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Gain de temps à l’arrivée des nouveaux</li>
-                            <li>On a aussi fait ça parce qu’on a tous changé de machines, et donc tous on a du réinstaller</li>
+                            <li>On a aussi fait ça parce qu’on a tous changé de machines (portables), et donc tous on a du réinstaller</li>
                             <li>Re-jouable à volonté</li>
                             <li>Cookbooks jouent aussi un rôle de doc ! Vu que pour installer quelque chose, on modifie les cookbooks et on fait une PR (vue par l’équipe, donc)</li>
-                            <li>Autres : Puppet, Ansible</li>
                         </ul>
                     </aside>
                 </section>
@@ -403,7 +408,9 @@ end
                     <aside class="notes">
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>expliquer le include_recipe</li>
+                            <li>c'est du ruby même si vous n'en avez jamais fait ça reste très facile</li>
+                            <li>include_recipe : utilisation d'une recette écrite par la communauté</li>
+                            <li>installation de php, du module mysql pour php, xdebug et restart apache</li>
                         </ul>
                     </aside>
                 </section>
@@ -435,6 +442,8 @@ end
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
+                            <li>utilisation d'une base box perso juste pour : vim, htop, tree, tmux...</li>
+                            <li>installation de chef solo via le plugin omnibus</li>
                         </ul>
                     </aside>
                 </section>
@@ -445,6 +454,7 @@ end
                         <p class="img-attribution"></p>
                         <ul>
                             <li>Speaker : Julien</li>
+                            <li>lors du premier up, les cookbooks sont joués et les packages s'installent tout seul</li>
                         </ul>
                     </aside>
                 </section>
@@ -461,9 +471,9 @@ end
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Backups réguliers en prod ; au besoin, on en récupère un</li>
+                            <li>Backups réguliers en prod</li>
                             <li>Adapter = supprimer données confidentielles, anonymiser, …</li>
-                            <li>Indexation : reconstruction depuis la DB, pour ce qui est généré par scripts (indexes moteurs de recherche, par exemple)</li>
+                            <li>Solr : reconstruction des indexes depuis la DB</li>
                         </ul>
                     </aside>
                 </section>
@@ -639,7 +649,8 @@ nameserver 192.168.3.1</pre>
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>Pas de longue étape "créer tous les fichiers de conf avec les bonnes valeurs"</li>
+                            <li>installation automatique des packages et des dépendances</li>
+                            <li>plus de longue étape : "créer tous les fichiers de conf avec les bonnes valeurs"</li>
                         </ul>
                     </aside>
                 </section>
@@ -680,8 +691,8 @@ $ bin/atoum && bin/behat
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>tea-sub</li>
                             <li>Github, Heroku toolbelt</li>
+                            <li>Commande pour simplifier, abstraire ce qu'on a vu précédemment</li>
                         </ul>
                     </aside>
                 </section>
@@ -715,7 +726,9 @@ connect() {
                         </p>
                         <ul>
                             <li>Speaker : Julien</li>
-                            <li>autocomplétion</li>
+                            <li>Sub : développé par l'équipe de Basecamp</li>
+                            <li>mutualisation de commandes communes aux devs</li>
+                            <li>autocomplétion des sous-commandes</li>
                         </ul>
                     </aside>
                 </section>
