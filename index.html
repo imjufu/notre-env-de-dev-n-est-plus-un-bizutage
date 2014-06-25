@@ -1,0 +1,1002 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Notre environnement de développement n’est plus un bizutage&nbsp;!</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="Julien FUSCO, Pascal MARTIN">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <script src="lib/js/jquery.min.js" type="text/javascript"></script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section data-background="./images/im-the-droid-you-re-looking-for.jpg" id="title">
+                    <h1>Notre env. de dév. n’est plus un<br />bizutage&nbsp;!</h1>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>L'installation était vécu comme un bizutage par les nouveaux arrivants</li>
+                            <li>Retour d'expérience de pourquoi plutôt qu'un listing de commande</li>
+                        </ul>
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4482211416/in/set-72157627868292677">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                    </aside>
+                </section>
+
+
+                <section id="info-notes-presentateur">
+                    <p>
+                        <strong>Appuyez sur <kbd>[s]</kbd> pour ouvrir les <em>notes présentateur</em> dans une nouvelle fenêtre.</strong>
+                    </p>
+                    <aside class="notes">
+                        <p>Je vais essayer d'ajouter ici, pour certains slides, des points que j’ai pu donner à l’oral lors de la présentation et/ou qui ne sont pas explicitement écrits sur les slides — afin de les rendre plus utiles aux lecteurs qui n’auraient pas assisté à la présentation.</p>
+                        <p>Le style sera volontairement un peu <em>oral</em>, se rapprochant un peu de ce qui s’est dit lors de la présentation <em>live</em>.</p>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/hide-and-seek.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Qui sommes-nous&nbsp;?</h2>
+
+                    <h3>Julien FUSCO</h3>
+                    <p>
+                        <a href="http://koin.github.io">http://koin.github.io</a>
+                        <br/><a href="http://twitter.com/PKoin">@PKoin</a>
+                    </p>
+                    <p>
+                        #MarioKart8 #montagne #pasDeFootPitié
+                    </p>
+
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3536695140/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Julien, 8 ans d'XP</li>
+                            <li>Gros background SSII</li>
+                            <li>Dév PHP, Ruby principalement</li>
+                            <li>J'aime beaucoup Mario Kart, on s'échange nos ID Nintendo ?</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/sleeping-again.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Qui sommes-nous&nbsp;?</h2>
+
+                    <h3>Pascal MARTIN</h3>
+                    <p>
+                        <a href="http://blog.pascal-martin.fr">http://blog.pascal-martin.fr</a>
+                        <br/><a href="mailto:pmartin@php.net">pmartin@php.net</a>
+                        <br/><a href="http://twitter.com/pascal_martin">@pascal_martin</a>
+                    </p>
+                    <p>
+                        #éléphpantarque #chatons #14h<strong>00</strong>
+                    </p>
+
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3419749236/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Pascal, 8 ans d'XP, SSII puis éditeur puis startup.</li>
+                            <li>Principalement du PHP, touche un peu à tout aussi.</li>
+                            <li>J'aime les chats \o/</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-human-bookend.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>TEA, The Ebook Alternative</h2>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4187515011">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Start-up sur le livre numérique</li>
+                            <li>Une quinzaine de personnes</li>
+                            <li>Entreprise fondée il y a 3 ans</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/greetings-from-the-moon-3.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Notre équipe</h2>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3419749236/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Julien arrivé il y a presque 3 ans, 2ème dev</li>
+                            <li>Pascal arrivé il y a presque 1 an, 4ème dev</li>
+                            <li>Aujourd’hui, 7 développeurs</li>
+                            <li>Un 8ème bientôt</li>
+                            <li>Pas les mêmes compétences : front, back, admin-sys, architecture...</li>
+                            <li>Pas la même xp : de 8 ans à 3 mois</li>
+                            <li>Agile, Scrum</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/heart-of-storm.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Ce qui est fixé</h2>
+                    <p>(pour le moment)</p>
+                    <ul>
+                        <li>Git, Github</li>
+                        <li>(Portable) Linux, Mac</li>
+                        <li>HipChat &lt;3</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/4354438814/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Chez TEA, on aime git et github</li>
+                            <li>Github : PRs (c'est systématique) + wiki</li>
+                            <li>Portable pour : le télétravail, le travail en pair</li>
+                            <li>Pas tous les mêmes distribs : Mac OSX, Debian, Ubuntu</li>
+                            <li>Communication (équipe qui grossie, télétravail) : Hipchat</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/going-down-in-the-moving-staircase.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Notre production</h2>
+                    <ul>
+                        <li>Linux, Apache, PHP, Ruby</li>
+                        <li>MySQL, MongoDB, Redis</li>
+                        <li>Silex, Symfony 1.4, Rails 3, Rails 4, Magento, …</li>
+                        <li>Outils propriétaires</li>
+                        <li>Déploiement&nbsp;: capistrano</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/5863576654/in/set-72157627198892736">Photo</a> par <a href="https://www.flickr.com/photos/kalexanderson/">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Explication de notre production pour expliquer la compléxité de notre archi</li>
+                            <li>Debian sur nos serveurs, 7 serveurs physiques, ~15 VMs entre dev, preprod, prod</li>
+                            <li>Stack LAMP, Ruby et aussi MongoDB, Redis, SolR</li>
+                            <li>Outils proprio : boites noires, pas la main dessus</li>
+                            <li>prestataires qui nous ont livré une production qu'on a du reverse-engineerer</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section class="without-darkback">
+                    <blockquote>«&nbsp;Bienvenue&nbsp;! Tu vas prendre en gros la semaine pour installer ton poste.&nbsp;(sic)&nbsp;»</blockquote>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Un de mes collègues, le jour de mon arrivée</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-lonely-vacuum-of-space.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <p>Moué…</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/8955273266/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Bon, une semaine, projets compliqués, pourquoi pas</li>
+                            <li>Ça doit compter le temps de commencer à comprendre comment ça marche</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section class="without-darkback">
+                    <blockquote>«&nbsp;Comme ils ont dû te dire, tu vas en avoir pour à peu près deux semaines à installer ton poste&nbsp;»</blockquote>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Un autre de mes collègues, quelques heures plus tard</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/armored-shock-troops-of-the-empire.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <p>WAT?</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4286044406/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>C’est beaucoup quand même</li>
+                            <li>Plate-forme hyper-ultra-mega-compliquée ?</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-new-imperial-web-solution.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Mais pourquoi&nbsp;?&nbsp;…</h2>
+                    <ul>
+                        <li>+ de 20 projets</li>
+                        <li>~ 13 serveurs</li>
+                        <li> 10 technos</li>
+                        <li>Applications très liées</li>
+                    </ul>
+                    <p>… en moins de 3 ans</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/6101914287/in/set-72157627198892736">Photo</a> par <a href="https://www.flickr.com/photos/kalexanderson/">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Start-up nécessite de délivrer vite en prod, visibilité des produits</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/lets-use-linux-to-find-the-droids.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>… À l’image de la prod&nbsp;?</h2>
+                    <ul>
+                        <li>Architecture</li>
+                        <li>Isolation des services</li>
+                        <li>Droits d’accès (fichiers, ressources)</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/6261682210/in/set-72157627198892736">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Importance de s'assurer que ce qu'on fait va fonctionner en prod</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-rebels-new-weapon.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Pas d’automatisation</h2>
+                    <h3>2012 - 2013</h3>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3447234153/in/set-72157616350171741/">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Mission de base : Encadrer les presta externe</li>
+                            <li>Que 2 devs pour tout faire</li>
+                            <li>Livraison d'une production, pas de vision globale sur l'archi mise en place</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/back-to-school.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Au départ</h2>
+                    <p>Doc peu (pas&nbsp;?) à jour sur un wiki</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3874830285/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Lancement de la boite, pour aller vite, code fait par des presta</li>
+                            <li>Un peu "reverse-engineering" de ce qui avait fait pour l’installer sur les postes de dev</li>
+                            <li>Tout manuel, depuis le wiki ; ce qui entraine des erreurs</li>
+                            <li>docs pas toujours à jour => des erreurs</li>
+                            <li>Wiki : notes dans tous les sens (parfois contradictoires d’une fiche à l’autre !), commandes à copier-coller, pas mis à jour aussi régulièrement qu’il ne faudrait, fichiers de conf à créer à la main, instructions du genre "remplacer X par Y", pas automatisé / automatisable</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-light-side-of-the-pullover.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>VirtualBox</h2>
+                    <p>Installation manuelle</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4297940349/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>VirtualBox pour environnement proche de la prod</li>
+                            <li>Vagrant : faciliter lancement / arrêt des VM</li>
+                            <li>Installation manuelle dans les VM !</li>
+                            <li>Tout à refaire à la main à chaque nouvelle installation</li>
+                            <li>Pas d’utilisation du provisionning de Vagrant</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/the-death-star-plans-are-not-in-he-main-computer.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <p>Collègue, pendant une semaine, a pris son PC (fixe) et est venue en pair avec moi</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/5845280258/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Pas mal de perte d’efficacité</li>
+                            <li>Côté positif : transmission (explication, réponse instantanée aux questions)</li>
+                            <li>BEAUCOUP de mise à jour de documentations, en notant tout ce qui avait foiré lors de mon install</li>
+                            <li>Au final : poste + ou - installé ; un peu le bordel vu qu’il avait fallu tester plusieurs trucs, des fois, pour que ça marche</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/more-comfortable-than-a-tauntaun.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Automatisation</h2>
+                    <h3>Depuis 2014</h3>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4120910042/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Début 2014, recrutement intensif, beaucoup de nouveaux</li>
+                            <li>"C'était le moment d'améliorer cette partie"</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/the-clones-are-breaking-into-the-super-mario-block.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Quelques outils</h2>
+                    <ul>
+                        <li>Vagrant provision</li>
+                        <li>Cookbooks Chef</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/5410769283/in/set-72157627198892736">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>On a aussi fait ça parce qu’on a tous changé de machines (portables), et donc tous on a du réinstaller</li>
+                            <li>Re-jouable à volonté</li>
+                            <li>Cookbooks jouent aussi un rôle de doc ! Vu que pour installer quelque chose, on modifie les cookbooks et on fait une PR (vue par l’équipe, donc)</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Cookbook chef</h2>
+                    <pre class="stretch"><code data-trim class="ruby">
+include_recipe "php"
+include_recipe "php::module_mysql"
+
+package "php5-xdebug" do
+  action :install
+end
+
+service "apache2" do
+  action [ :restart ]
+end
+                    </code></pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>c'est du ruby même si vous n'en avez jamais fait ça reste très facile</li>
+                            <li>include_recipe : utilisation d'une recette écrite par la communauté</li>
+                            <li>installation de php, du module mysql pour php, xdebug et restart apache</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Vagrantfile</h2>
+                    <pre class="stretch"><code data-trim class="ruby">
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "tea-phptour" do |test|
+    test.vm.box = "tea-wheezy-amd64"
+    test.vm.hostname = "tea-phptour"
+
+    test.omnibus.chef_version = :latest
+
+    test.vm.provision "chef_solo" do |chef|
+      chef.cookbooks_path = "#{my_ws}/cookbooks"
+      chef.add_recipe "tea-phptour"
+    end
+  end
+
+end
+                    </code></pre>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>utilisation d'une base box perso juste pour : vim, htop, tree, tmux...</li>
+                            <li>installation de chef solo via le plugin omnibus</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/vagrant-up.png" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>vagrant up tea-phptour</h2>
+                    <aside class="notes">
+                        <p class="img-attribution"></p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>lors du premier up, les cookbooks sont joués et les packages s'installent tout seul</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/no-more-rabbits.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Pour les données&nbsp;? Scripts&nbsp;!</h2>
+                    <ul>
+                        <li>(bash) Import depuis la prod</li>
+                        <li>(SQL) Nettoyage des données sensibles</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/6163134201/in/set-72157627198892736">Photo</a> par <a href="https://www.flickr.com/photos/kalexanderson/">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Backups réguliers en prod</li>
+                            <li>Adapter = supprimer données confidentielles, anonymiser, …</li>
+                            <li>Solr : reconstruction des indexes depuis la DB</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/imperial-art-appreciation-red.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Malgré cela…</h2>
+                    <ul>
+                        <li>Cloner le repo git</li>
+                        <li>Créer la VM</li>
+                        <li><code>composer install</code></li>
+                        <li>Les tests passent…</li>
+                        <li class="fragment">… <strong>ou pas&nbsp;!</strong></li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/3784982060/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/memory-lapse.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Configuration</h2>
+                    <h3>Très chronophage</h3>
+                    <ul>
+                        <li>Avant&nbsp;: fichiers <code>.dist</code></li>
+                        <li class="fragment">Maintenant&nbsp;: <code>stow</code></li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4291462682">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Application métier complexe avec nombreux (+ de 10) fichiers de configuration, réparti dans plusieurs sous-répertoires</li>
+                            <li>TRES consommateur en temps et énergie à configurer</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Stow</h2>
+                    <p>
+                        Arborescence extraite de git
+                    </p>
+                    <pre>
+$ tree
+.
+|-- app
+|   `-- config
+|-- config
+`-- config-dist
+    `-- local
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Possible uniquement parce que les environnements sont très proches chez tout le monde (hôtes des VM / services, notamment)</li>
+                            <li>Exemple "avant" de lancer la commande stow</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Stow</h2>
+                    <pre>
+$ stow --dir=config-dist --target=. local</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Stow</h2>
+                    <p>
+                        Arborescence avec les symlinks
+                    </p>
+                    <pre>
+$ tree
+.
+|-- app
+|   `-- config
+|       `-- specifique-appli.txt
+            -&gt; ../../config-dist/local/app/config/specifique-appli.txt
+|-- config
+|   `-- test.yml -&gt; ../config-dist/local/config/test.yml
+`-- config-dist
+    `-- local
+        |-- app
+        |   `-- config
+        |       `-- specifique-appli.txt
+        `-- config
+            `-- test.yml</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Même chose "après" lancement de la commande stow</li>
+                            <li>Si quelqu’un modifie un fichier de config, la modification passe dans la PR de la feature sur laquelle il bossait, et tous les collègues en profitent</li>
+                            <li>Si un poste des "trop différent" des autres, ça va poser problème ; pour l’instant, on voit sur un projet si "ça marche" (ça a l’air pas trop mal parti) ; ensuite on va faire pareil sur 1 ou 2 autres ; puis les suivants</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/mirror.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>dnsmasq</h2>
+                    <p>Serveur DNS utilisé par toutes les machines</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4537068343/in/set-72157623652753215">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Problématique : comment faire pour que les services se parlent entre eux ?</li>
+                            <li>IP en dur : pas viable</li>
+                            <li>Modifier les fichiers /etc/hosts partout : fastidieux, manuel, à faire dans chaque VM, pas possible sous Docker (peut-être que si, maintenant ? )</li>
+                            <li>Serveur DNS sur poste de dev : 1 seul endroit où effectuer les configurations</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Sur le poste de dev.</h2>
+                    <pre>
+# /etc/dnsmasq.conf
+bind-interfaces
+conf-dir=/etc/dnsmasq.d</pre>
+                    <pre>
+# /etc/dnsmasq.d/ecommerce.local
+address=/ecommerce.local/192.168.3.13</pre>
+                    <pre>
+# /etc/dnsmasq.d/database.local
+address=/database.local/192.168.3.10</pre>
+                    <pre>
+sudo /etc/init.d/dnsmasq restart</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Sur le poste physique, on installe dnsmasq et on le configure pour qu'il chager tous les fichiers depuis <code>dnsmasq.d</code></li>
+                            <li>Ensuite, un fichier par service (plus facile pour semi-automatiser leur création) avec nom du service + IP</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background-color="#000000" class="inverted">
+                    <h2>Sur les VMs</h2>
+                    <pre>
+apt-get install resolvconf</pre>
+                    <pre>
+# /etc/resolvconf/resolv.conf.d/head
+nameserver 192.168.3.1</pre>
+                    <aside class="notes">
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Sur chaque VM, IP du poste physique (sur l'interface de virtualisation), qui est utilisé pour la résolution DNS</li>
+                            <li>On n'a plus 36 lignes dans <code>/etc/hosts</code>, mais une seule pour la résolution, qui ne change globalement jamais</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/imperial-art-appreciation-green.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Objectif atteint&nbsp;!</h2>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/3795174312/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>installation automatique des packages et des dépendances</li>
+                            <li>plus de longue étape : "créer tous les fichiers de conf avec les bonnes valeurs"</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Objectif atteint&nbsp;!</h2>
+                    <pre>
+                        <code class="bash">
+$ git clone mon-projet.git
+$ vagrant up ma-vm
+$ composer install
+$ stow --dir=config-dist local
+
+$ bin/atoum && bin/behat
+                        </code>
+                    </pre>
+                    <p>\o/</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/christmas-love.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Boîte à outils</h2>
+                    <ul>
+                        <li>Initialisation de l’env de dev</li>
+                        <li>Connexion serveurs dev, preprod, prod</li>
+                        <li>Déploiement clefs SSH</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/5234403739/in/set-72157623652753215">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Github, Heroku toolbelt</li>
+                            <li>Commande pour simplifier, abstraire ce qu'on a vu précédemment</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>tea-sub</h2>
+                    <pre class="stretch"><code data-trim class="shell">
+#!/usr/bin/env bash
+# Summary: (tea) development server
+# Usage: tea dev [actions] [user]
+# Help:
+#   Possible actions:
+#   warehouse   Users: tea (default), warehouse
+#   db          Users: tea (default)
+#   acs         Users: tea (default), acs
+set -e
+
+DIRNAME=`dirname $0`
+
+connect() {
+  set_color FFFFFF 7A4B0C
+  ssh "$1"@tea-"$2"-pp.teaebook
+  set_color FFFFFF 000000
+}
+
+# ...
+                    </code></pre>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Sub : développé par l'équipe de Basecamp</li>
+                            <li>mutualisation de commandes communes aux devs</li>
+                            <li>autocomplétion des sous-commandes</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/preprod.png" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>tea-sub</h2>
+                    <p>Connexion à la pre-prod</p>
+                    <code>$ tea preprod db</code>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/prod.png" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>tea-sub</h2>
+                    <p>Connexion à la prod</p>
+                    <code>$ tea prod db</code>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/space-invasion.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Chacun son poste de dev</h2>
+                    <ul>
+                        <li>Linux, Mac</li>
+                        <li>IDE, Sublime Text, vim</li>
+                        <li>VirtualBox, Docker</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3566922701/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Laisse quand même pas mal de liberté à chacun</li>
+                            <li>Autrement dit : avantages de l’automatisation, sans pour autant que ça ne soit une contrainte</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/playing-scrabble.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>En plus&nbsp;!</h2>
+                    <ul>
+                        <li>Facilite la montée de versions</li>
+                        <li>Mise en place d’une PIC</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4555277559/in/set-72157623652753215">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Utile pour migration versions PHP, Varnish, Apache -> nginx, Ruby</li>
+                            <li>Cookbooks à mettre à jour par 1 personne, et tout le monde en profite</li>
+                            <li>Facile de basculer d’une version à l’autre (suffit de rebuilder la VM, au pire)</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/have-you-grown.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>WIP constant</h2>
+                    <ul>
+                        <li>Correction</li>
+                        <li>Amélioration</li>
+                        <li>Création</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/7187186394/in/set-72157627198892736">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Stow : en place sur quelques projets, à poursuivre "au fil de l’eau"</li>
+                            <li>Cookbooks : encore quelques projets (ceux sur lesquels on ne bosse en gros jamais) à faire</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section data-background="./images/ready-for-takeoff.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Expérimenter&nbsp;!</h2>
+                    <ul>
+                        <li>Docker</li>
+                        <li>PHP 5.6</li>
+                        <li>Ruby 2.1</li>
+                        <li>Apache → Nginx</li>
+                    </ul>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/4333068306/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>"Sensation d'envoyer une fusée dans l'espace"</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/are-you-sure-this-is-how-its-played.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2>Pas toujours parfait</h2>
+                    <h3>L’important, c’est d’avancer</h3>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/lens-cap/13986579112/in/set-72157626730022370">Photo</a> par <a href="https://www.flickr.com/photos/lens-cap/">Jim Bauer</a> sur Flickr, CC-.
+                        </p>
+                        <ul>
+                            <li>Speaker : Pascal</li>
+                            <li>Bien sûr, expérimenter ne mène pas toujours à une solution parfaite</li>
+                            <li>Et encore moins du 1er coup</li>
+                            <li>Mais c’est comme ça qu’on avance, par petits incréments</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/troopers-in-the-sunlight.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <p>Notre env. de dév. n’est (presque)<br/>plus un bizutage&nbsp;:-)</p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/kalexanderson/6813057417/in/set-72157627198892736">Kristina Alexanderson</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                            <li>Récapitulatif</li>
+                            <li>chef pour le provisionnement des boxes sous virtualbox et vagrant</li>
+                            <li>stow pour la config</li>
+                            <li>composer ou bundler pour les dépendances</li>
+                            <li>script shell pour les données</li>
+                            <li>piloté par une toolbelt qui va bien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/die-stormtrooper-die.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h1>Questions&nbsp;?</h1>
+                    <p>
+                        <a href="http://koin.github.io">http://koin.github.io</a>
+                        <br /><a href="http://twitter.com/PKoin">@PKoin</a>
+                    </p>
+                    <p>
+                        <a href="http://blog.pascal-martin.fr">http://blog.pascal-martin.fr</a>
+                        <br /><a href="http://twitter.com/pascal_martin">@pascal_martin</a>
+                    </p>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/jdhancock/3582171012/in/set-72157618524893239">Photo</a> par <a href="https://www.flickr.com/photos/jdhancock/">JD Hancock</a> sur Flickr, CC-BY.
+                        </p>
+                        <ul>
+                            <li>Speaker : Julien</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="./images/welcome-party-stormtrooper-night-fever.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h1>Apéro</h1>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="https://www.flickr.com/photos/st3f4n/3425510675/in/set-72157616350171741">Photo</a> par <a href="https://www.flickr.com/photos/st3f4n/">Stéfan</a> sur Flickr, CC-BY-NC-SA.
+                        </p>
+                        <ul>
+                            <li>On sera tous deux présents à l’apéro communautaire ce soir</li>
+                            <li>(vu qu’on fait la dernière conf de la journée, profitons-en)</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <!--
+                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h1></h1>
+                    <aside class="notes">
+                        <p class="img-attribution">
+                            <a href="">Photo</a> par <a href=""></a> sur Flickr, CC-.
+                        </p>
+                    </aside>
+                </section>
+                -->
+
+                <!--
+                <section data-background="./images/some-image.jpg" data-background-size="contain" data-background-color="#000000" class="inverted">
+                    <h2></h2>
+                    ul>li
+                    <aside class="notes">
+                        ul>li
+                    </aside>
+                </section>
+                -->
+
+                <!--
+                <section>
+                    <h2></h2>
+                    ul>li
+                    <pre><code data-trim>
+
+                    </code></pre>
+                    <aside class="notes">
+                        ul>li
+                    </aside>
+                </section>
+                -->
+
+            </div>
+
+            <div id="footer" class="presentation-details">
+                <p>
+                    <!-- Texte de footer&nbsp;—
+                    Julien FUSCO <a href="http://twitter.com/pascal_martin">@pascal_martin</a>,
+                    Pascal MARTIN <a href="http://twitter.com/pkoin">@pkoin</a> -->
+                </p>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: true,
+                history: true,
+                center: true,
+                theme: 'simple',
+                transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+                width: 1280,
+                height: 853,
+                slideNumber: false,
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+            // Changement de footer pour afficher les credits de la photo du slide courant
+            Reveal.addEventListener('slidechanged', function (event) {
+                if ($('aside.notes p.img-attribution', event.currentSlide).length > 0) {
+                    $('#footer p').html($('aside.notes p.img-attribution', event.currentSlide).html());
+                }
+                else {
+                    $('#footer p').html("");
+                }
+            });
+
+            /*
+            // Navigation à la souris
+            window.addEventListener("mousedown", handleClick, false);
+            window.addEventListener("contextmenu", handleClick, false);
+            function handleClick(e) {
+                e.preventDefault();
+                if(e.button === 0) Reveal.next();
+                if(e.button === 2) Reveal.prev();
+            }
+            //*/
+
+        </script>
+
+    </body>
+</html>
